@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand:hover {
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(248,26,92);
+}
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248,26,92);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.main{
+    background: url(images/mainbg.jpeg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.btn1{
+   height: 45px;
+   width: 35%;
+   border: none;
+   outline: none;
+   background-color: rgb(248,26,92);
+   color: white;
+   font-weight: 600;
+   border-radius: 10px; 
+}
+.new img{
+    height: 110px;
+    justify-content: space-between;
+}
+.new h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.product h1 {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.product h6{
+    margin-bottom: 60px;
+}
+.card-body img {
+    height: 200px;
+}
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248,26,92);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px;
+}
+.btn1:hover {
+    background-color: rgb(195, 4, 61);
+    transition: 0.5s;
+}
+.card:hover {
+    -webkit-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.64);
+-moz-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.64);
+box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.64);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.about h6 {
+    margin-bottom: 60px;
+}
+.about h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.apple {
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/apple.avif)no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size: 40px;
+}
+.news {
+    background-color: black;
+    color: white;
+}
+.news h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 1px solid white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.news input {
+    height: 45px;
+    width: 50%;
+    border: 1px solid white;
+    border-radius:10px;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.news::placeholder{
+    color: white;
+}
+.news p {
+    margin: 0;
+    margin-left: 150px;
+}
+.news p:hover{
+    color:rgb(248,26,92);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-brands {
+    font-size: 40px;
+    cursor: pointer ;
+    padding-right: 20px;
+}
+.fa-brands:hover {
+    color: rgb(248,26,92);
+    transition: 0.5s;
+}
+.shop h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.contact h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
